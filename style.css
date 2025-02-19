@@ -1,0 +1,187 @@
+/* 🌟 General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* 🌟 Header Section */
+.hero {
+    text-align: center;
+    background: #1c1c1c;
+    color: white;
+    padding: 40px 20px;
+}
+
+.hero img {
+    max-width: 400px;
+    height: auto;
+}
+
+.hero h1 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* 📌 Navigation Menu */
+.navbar {
+    background: #2c3e50;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+
+.navbar ul li a:hover {
+    background: #e74c3c;
+    border-radius: 5px;
+}
+
+/* 🔥 Sections */
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #e74c3c;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* 📅 Button Styles */
+.btn {
+    display: block;
+    width: 180px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background: #e74c3c;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #c0392b;
+}
+
+/* 📩 Newsletter */
+.newsletter {
+    text-align: center;
+    background: #2c3e50;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    background: #e74c3c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.newsletter button:hover {
+    background: #c0392b;
+}
+
+/* 📌 Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    font-size: 14px;
+}
+
+/* 🎉 Wishes Page Styles */
+.wishes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wishes ul li {
+    background: #f1f1f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 5px solid #e74c3c;
+    font-size: 16px;
+}
+
+/* 📱 Responsive Design */
+@media screen and (max-width: 768px) {
+    
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero img{
+        width: 80%px;
+    }
+    .navbar ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .newsletter input {
+        width: 80%;
+    }
+}
